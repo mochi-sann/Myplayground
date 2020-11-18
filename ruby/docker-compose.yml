@@ -3,9 +3,6 @@ version: "3"
 services:
   rubywb:
     build: .
-    ports:
-      # - "4900:4900"
-      # - "9005:9005"
     volumes:
       - ".:/app/"
     tty: true
